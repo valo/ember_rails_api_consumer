@@ -5,18 +5,15 @@ describe Project do
     let(:tasks) do
       [{
         id: 1,
-        name: "Milk",
-        project_id: projects[0][:id]
+        name: "Milk"
       },
       {
         id: 2,
-        name: "Bread",
-        project_id: projects[0][:id]
+        name: "Bread"
       },
       {
         id: 3,
-        name: "Butter",
-        project_id: projects[1][:id]
+        name: "Butter"
       }]
     end
     let(:projects) do
